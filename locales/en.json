@@ -1,0 +1,18 @@
+{
+	"Welcome to NodeHome": "Welcome to NodeCasa",
+	"Household products": "Household products",
+	"nodeHome": "nodeHome",
+	"Name": "Name",
+	"Price": "Price",
+	"New": "New",
+	"Categories": "Categories",
+	"Image URL": "Image URL",
+	"Description": "Description",
+	"Go >": "Go >",
+	"< Back to product list": "< Back to product list",
+	"Tag": {
+		"one": "Tag",
+		"other": "Tags"
+	},
+	"Link": "Link"
+}
