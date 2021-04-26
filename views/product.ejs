@@ -7,10 +7,9 @@
     <img src="/images/products/<%= article.image %>" alt="imagen de <%= article.name %> " width="30%">
     <p>Detalles: <%= article.description %></p>
     <p>Estado: <%= article.new ? 'Nuevo' : 'Usado' %>  </p>
-    <p><%= article.tags.length > 1 ? 'Categorías': 'Categoría' %>: <%= article.tags %></p>
-
+    <p><%= __n('Tag', article.tags.length) %>: <%= article.tags.map(item => item).join(', ') %></p>
     <hr>
 
-    <a href="/products">Volver a la lista</a>
+    <a href="/products"><%= __('< Back to product list') %></a>
 
 <%- include('footer') -%>
