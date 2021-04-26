@@ -13,4 +13,10 @@
       <h1><%= __('nodeHome') %> </h1>
     </a>
     <h2><%= __('Household products') %></h2>
+
+    <p><% getLocales().map(locale => { %>
+      <a href="/change-locale/<%= locale %>"><%= locale %></a>
+      <% }) %>
+    </p>
+    
   

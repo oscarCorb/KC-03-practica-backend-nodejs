@@ -35,6 +35,7 @@ i18n.__('Welcome to NodeHome');
 // website routes
 app.use('/', require('./routes/index'));
 // app.use('/users', require('./routes/users'));
+app.use('/change-locale', require('./routes/change-locale'));
 
 // static files middleware
 app.use(express.static(path.join(__dirname, 'public')));

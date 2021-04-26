@@ -1,7 +1,7 @@
 var express = require('express');
-var router = expess.Router();
+var router = express.Router();
 
-router.ger('/:locale', function (req, res, next) {
+router.get('/:locale', function (req, res, next) {
   const locale = req.params.locale;
 
   res.cookie('nodeapi-locale', locale, {
