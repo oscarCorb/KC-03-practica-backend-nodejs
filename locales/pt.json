@@ -1,18 +1,19 @@
 {
-  "Welcome to NodeHome": "Bem-vindo a NodeCasa",
-  "Household products": "Produtos domésticos",
-  "nodeHome": "nodeCasa",
-  "Name": "Nome",
-  "Price": "Preço",
-  "New": "Novo",
-  "Categories": "Categorias",
-  "Image URL": "URL da imagem",
-  "Description": "Descrição",
-  "Go >": "Ver",
-  "< Back to product list": "< Voltar à lista",
-  "Tag": {
-    "one": "Categoria",
-    "other": "Categorias"
-  },
-  "Link": "Ligação"
+	"Welcome to NodeHome": "Bem-vindo a NodeCasa",
+	"Household products": "Produtos domésticos",
+	"nodeHome": "nodeCasa",
+	"Name": "Nome",
+	"Price": "Preço",
+	"New": "Novo",
+	"Categories": "Categorias",
+	"Image URL": "URL da imagem",
+	"Description": "Descrição",
+	"Go >": "Ver",
+	"< Back to product list": "< Voltar à lista",
+	"Tag": {
+		"one": "Categoria",
+		"other": "Categorias"
+	},
+	"Link": "Ligação",
+	"Tags": "Tags"
 }

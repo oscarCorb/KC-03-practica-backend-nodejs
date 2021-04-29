@@ -24,6 +24,7 @@ router.get('/products', async (req, res, next) => {
     const filtered = filters(name, price, newProduct, tags);
 
     res.locals.products = await Product.list(filtered, limit, skip, fields, sort);
+    res.locals.tags = await Product.distinct('tags');
     res.render('index');
   } catch (error) {
     next(error);

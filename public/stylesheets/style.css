@@ -3,13 +3,18 @@ body {
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
+/*
 a {
-  /* color: #00b7ff; */
   text-decoration: none;
 }
 
 a:visited {
   color: black;
+}
+*/
+
+table {
+  margin-top: 35px;
 }
 
 td {
